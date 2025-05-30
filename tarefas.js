@@ -74,5 +74,10 @@ console.log("-------------------------------------------------------------------
 let comoTexto = tarefas.map(tarefa => `Fazer: ${tarefa}`);
 console.log(`tarefas: ${comoTexto.join(', ')}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+//Etapa 11: 
+//Filtre as tarefas que têm mais de 15 caracteres
+let tarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
+console.log(`Playlist filtrada (músicas com mais de 15 caracteres): ${tarefasFiltrada}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
 
