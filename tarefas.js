@@ -64,7 +64,15 @@ console.log(`Elemento adicionado: ${tarefas[3]}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 //Etapa 9:
 //Crie uma nova lista com tarefas adicionais e junte com a lista original.
-let tarefasAdicionais = ['Jogar videogame', 'Ir a piscina', 'Ouvir músicas', 'Almoçar', 'ler a bíblia'];
+let tarefasAdicionais = ['Jogar videogame', 'Ir a piscina', 'Ouvir músicas', 'Almoçar', 'ler a bíblia', 'jogar futebol', 'tocar piano', 'lutar', 'ler mangás', 'jantar'];
 console.log(`tarefas combinadas: ${tarefas.concat(tarefasAdicionais)}`);
 console.log(`Playlist combinada: ${tarefas.concat(tarefasAdicionais).join(', ')}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+//Etapa 10:
+//Adicione a palavra "Fazer:" no início de cada tarefa.
+let comoTexto = tarefas.map(tarefa => `Fazer: ${tarefa}`);
+console.log(`tarefas: ${comoTexto.join(', ')}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+
