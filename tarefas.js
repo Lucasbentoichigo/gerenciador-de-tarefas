@@ -79,5 +79,9 @@ console.log("-------------------------------------------------------------------
 let tarefasFiltrada = tarefas.filter(tarefas => tarefas.length > 15);
 console.log(`Playlist filtrada (músicas com mais de 15 caracteres): ${tarefasFiltrada}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
-
+//Etapa 12:
+//Organize as tarefas em ordem alfabética.
+let tarefasOrdenada = tarefas.sort();
+console.log(`Tarefas ordenadas: ${tarefasOrdenada}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
