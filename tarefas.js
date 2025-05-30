@@ -33,3 +33,7 @@ console.log("-------------------------------------------------------------------
 let tarefaRemovida2 = tarefas.shift();
 console.log(`Depois do shift:${tarefas}`);
 console.log(`tarefa removida:${tarefaRemovida2}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+//Verifique “SE” a tarefa 'Ir à academia' está na lista. Se ela não estiver, adicione-a.
+console.log("A tarefa inclui 'Ir à academia?'?",tarefas.includes('Ir à academia'));
