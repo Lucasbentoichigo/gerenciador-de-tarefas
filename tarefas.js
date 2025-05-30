@@ -15,3 +15,9 @@ tarefas.push("Cozinhar");
 tarefas.push("Ir a igreja");
 
 console.log(`Depois do push: ${tarefas}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+let tarefaRemovida = tarefas.pop()
+console.log(`Depois do pop:${tarefas}`);
+console.log(`Tarefa removida:${tarefaRemovida}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
