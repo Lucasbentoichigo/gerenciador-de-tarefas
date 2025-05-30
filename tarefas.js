@@ -21,3 +21,8 @@ let tarefaRemovida = tarefas.pop()
 console.log(`Depois do pop:${tarefas}`);
 console.log(`Tarefa removida:${tarefaRemovida}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+tarefas.unshift("Assistir filme");
+
+console.log(`Depois do unshifted:${tarefas}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
