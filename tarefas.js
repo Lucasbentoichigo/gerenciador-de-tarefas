@@ -62,3 +62,9 @@ tarefas[3] = "Lavar roupas";
 console.log(`Nova lista de tarefas: ${tarefas}`);
 console.log(`Elemento adicionado: ${tarefas[3]}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+//Etapa 9:
+//Crie uma nova lista com tarefas adicionais e junte com a lista original.
+let tarefasAdicionais = ['Jogar videogame', 'Ir a piscina', 'Ouvir músicas', 'Almoçar', 'ler a bíblia'];
+console.log(`tarefas combinadas: ${tarefas.concat(tarefasAdicionais)}`);
+console.log(`Playlist combinada: ${tarefas.concat(tarefasAdicionais).join(', ')}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
