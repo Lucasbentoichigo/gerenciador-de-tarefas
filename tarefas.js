@@ -9,7 +9,8 @@ let tarefas = ['Estudar JavaScript',
            'Estudar para concurso',
             'Organizar o computador'];
 
-            //Adicione ao menos 2 novas tarefas à lista de tarefas.
+            //Etapa 1:
+            // Adicione ao menos 2 novas tarefas à lista de tarefas.
 console.log(`Antes do push:${tarefas}`);
 
 tarefas.push("Cozinhar");
@@ -18,31 +19,46 @@ tarefas.push("Ir a igreja");
 console.log(`Depois do push: ${tarefas}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-//Remova a última tarefa da lista.
+//Etapa 2:
+// Remova a última tarefa da lista.
 let tarefaRemovida = tarefas.pop()
 console.log(`Depois do pop:${tarefas}`);
 console.log(`Tarefa removida:${tarefaRemovida}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-//Adicione uma tarefa no início da lista.
+//Etapa 3:
+// Adicione uma tarefa no início da lista.
 tarefas.unshift("Assistir filme");
 console.log(`Depois do unshifted:${tarefas}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-//Remova a primeira tarefa da lista.
+//Etapa 4:
+// Remova a primeira tarefa da lista.
 let tarefaRemovida2 = tarefas.shift();
 console.log(`Depois do shift:${tarefas}`);
 console.log(`tarefa removida:${tarefaRemovida2}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-//Verifique “SE” a tarefa 'Ir à academia' está na lista. Se ela não estiver, adicione-a.
+//Etapa 5:
+// Verifique “SE” a tarefa 'Ir à academia' está na lista. Se ela não estiver, adicione-a.
 console.log("A tarefa inclui 'Ir à academia?'?",tarefas.includes('Ir à academia'));
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-//Transforme a lista de tarefas em uma string separada por vírgulas.
+//Etapa 6:
+// Transforme a lista de tarefas em uma string separada por vírgulas.
 console.log(`Tarefas como string:${tarefas.join(',')}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
-//Extraia as tarefas do índice 2 ao 4.
+//Etapa 7:
+// Extraia as tarefas do índice 2 ao 4.
 console.log(`Parte das tarefas (índices 2 a 4): ${tarefas.slice(2, 5)}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+//Etapa 8:
+//Remova a tarefa no índice 3 e substitua por uma nova tarefa.
+let tarefaRemovida3 = tarefas.splice(3,1)
+console.log(`Depois do splice: ${tarefas}`);
+console.log(`Elementos removidos: ${tarefaRemovida3}`);
+tarefas[3] = "Lavar roupas";
+console.log(`Nova lista de tarefas: ${tarefas}`);
+console.log(`Elemento adicionado: ${tarefas[3]}`);
 console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
