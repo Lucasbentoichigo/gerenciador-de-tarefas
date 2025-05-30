@@ -37,3 +37,8 @@ console.log("-------------------------------------------------------------------
 
 //Verifique “SE” a tarefa 'Ir à academia' está na lista. Se ela não estiver, adicione-a.
 console.log("A tarefa inclui 'Ir à academia?'?",tarefas.includes('Ir à academia'));
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
+
+//Transforme a lista de tarefas em uma string separada por vírgulas.
+console.log(`Tarefas como string:${tarefas.join(',')}`);
+console.log("------------------------------------------------------------------------------------------------------------------------------------------------------------");
